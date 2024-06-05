@@ -31,11 +31,14 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     float: left;
-    transition: all 0.3s ease 0s;
+   
   }
-  
 
-  
+  .nav-area .main-nav .logo img {
+    width: 50% ;
+  }
+
+
   .nav-area .main-nav .nav {
     float: right;
     margin-top: 30px;
@@ -188,14 +191,12 @@
   }
   
   @media (max-width: 767px) {
-    .nav-area .main-nav .logo {
-      color: #1e1e1e;
-    }
+    
     .nav-area.header-sticky .nav li a:hover,
     .nav-area.header-sticky .nav li a.active {
       color: #343434!important;
       opacity: 1;
-    }
+    } 
     .nav-area.header-sticky .nav li.search-icon a {
       width: 100%;
     }
@@ -209,9 +210,7 @@
     .nav-area .container {
       padding: 0px;
     }
-    .logo {
-      width: 20% !important;
-    }
+    
     
     .nav-area .menu-trigger {
       display: block !important;
@@ -239,13 +238,11 @@
     }
     .nav-area .main-nav .nav li a {
       height: 50px !important;
-      /* line-height: 50px !important; */
       padding: 0px !important;
       border: none !important;
       color: #191a20 !important;
     }
     .nav-area .main-nav .nav li a:hover {
-      background: #eee !important;
       color: #343434!important;
     }
     
